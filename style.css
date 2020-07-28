@@ -1,0 +1,189 @@
+html, body {
+    background-color: #E8ECEE;
+
+    margin: 0 0 50px 0;
+    padding: 0;
+}
+
+.imagem {
+    height: 70vh;
+
+    text-align: center;
+
+    background:url(https://images.pexels.com/photos/5808/food-healthy-vegetables-village.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+#titulo {
+    color: #F9F9F9;
+
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+    filter: drop-shadow(100%);
+
+
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+
+    padding: 15.1% 20%;
+
+    transition: 400ms;
+}
+
+.topic-1 {
+    margin: 5% 10%;
+
+    background-color: #F3F5F6;
+
+    border-radius: 8px;
+
+    padding: 2px 10px 2px 10px;
+}
+
+#topic-1 {
+    color: #00030F;
+
+    text-align: left;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#ODS {
+    color: #00030F;
+
+    text-align: justify;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#ODS a {
+    text-decoration: none;
+
+    color: #000C3D;
+}
+
+.videos {
+    padding: 0 15%;
+    margin-bottom: 390px;
+}
+
+#video-1 {
+    float: left;
+
+    border-radius: 8px;
+}
+
+#video-2 {
+    float: right;
+    
+    border-radius: 8px;
+}
+
+#topic-2 {
+    color: #00030F;
+
+    text-align: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.como-ajudar {
+    padding: 0 10%;
+
+    margin-bottom: 100px;
+}
+
+.imagem-1 {
+    background-color: #F3F5F6;
+
+    padding: 10px 10px 26px 10px;
+
+    border-radius: 8px 8px 0 0;
+}
+
+.imagem-1 img {
+    border-radius: 8px 0px 0px 8px;
+
+    float: left;
+
+    margin-right: 30px;
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.imagem-2 {
+    background-color: #F3F5F6;
+
+    padding: 10px 10px 26px 10px;
+}
+
+.imagem-2 img {
+    border-radius: 0px 8px 8px 0px;
+
+    float: right;
+
+    margin-left: 30px;
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.imagem-3 {
+    background-color: #F3F5F6;
+
+    padding: 10px 10px 115px 10px;
+
+    margin: 0px 0;
+}
+
+.imagem-3 img {
+    border-radius: 0px 8px 8px 0px;
+
+    float: right;
+
+    margin-left: 30px;
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.imagem-4 {
+    background-color: #F3F5F6;
+
+    padding: 10px 10px 100px 10px;
+
+    margin: 0px 0;
+}
+
+.imagem-4 img {
+    border-radius: 8px 0px 0px 8px;
+
+    float: left;
+
+    margin-right: 30px;
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.imagem-5 {
+    background-color: #F3F5F6;
+
+    padding: 10px 10px 50px 10px;
+
+    border-radius: 0 0 8px 8px;
+}
+
+.imagem-5 img {
+    border-radius: 8px 0px 0px 8px;
+
+    float: left;
+
+    margin-right: 30px;
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
