@@ -13,8 +13,62 @@ html {
 body {
     background-color: var(--bg-color);
 
-    margin: 0 0 50px 0;
+    margin: 0;
     padding: 0;
+}
+
+header {
+    background-color: var(--bg1-color);
+
+    position: fixed;
+
+    width: 100vw;
+    height: 15vh;
+
+    filter: drop-shadow(0 0 0.75rem #12121255);
+
+    z-index: 10;
+}
+
+header img {
+    width: 190px;
+
+    margin: 20px 0 0 10%;
+
+    filter: drop-shadow(1px 1px 3px #9898ff20);
+}
+
+header a {
+    text-decoration: none;
+
+    color: var(--txt-color);
+}
+
+header p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+    float: right;
+
+    margin: 35px 0 0 0;
+
+    background-color: var(--bg-color);
+
+    padding: 10px;
+    margin-right: 10px;
+
+    border-radius: 8px;
+}
+
+header p:hover {
+    background-color: #e0e0e0;
+
+    transition: 400ms;  
+}
+
+#margin {
+    margin-right: 11.2%;
 }
 
 .imagem {
@@ -29,7 +83,6 @@ body {
 
     text-align: center;
     text-shadow: 0 0 10px #000;
-    filter: drop-shadow(100%);
 
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
@@ -66,6 +119,10 @@ body {
     background-color: rgba(000, 000, 000, 0.3);
 
     margin: 0 40%;
+}
+
+#comecar {
+    visibility: hidden;
 }
 
 .topic-1 {
@@ -106,7 +163,7 @@ body {
 
 .videos {
     padding: 0 15%;
-    margin-bottom: 390px;
+    margin-bottom: 300px;
 }
 
 #video-1 {
@@ -121,6 +178,20 @@ body {
     border-radius: 8px;
 }
 
+.topico-2 {
+    padding-bottom: 3%;
+}
+
+#topico-2 {
+    visibility: hidden;
+}
+
+.como-ajudar {
+    padding: 0 10%;
+
+    margin-bottom: 100px;
+}
+
 #topic-2 {
     color: var(--txt-color);
 
@@ -129,12 +200,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
     font-size: 30px;
-}
-
-.como-ajudar {
-    padding: 0 10%;
-
-    margin-bottom: 100px;
 }
 
 .imagem-1 {
@@ -146,6 +211,8 @@ body {
 }
 
 .imagem-1 img {
+    max-width: 300px;
+
     border-radius: 8px 0px 0px 8px;
 
     float: left;
@@ -162,6 +229,8 @@ body {
 }
 
 .imagem-2 img {
+    max-width: 300px;
+
     border-radius: 0px 8px 8px 0px;
 
     float: right;
@@ -180,6 +249,8 @@ body {
 }
 
 .imagem-3 img {
+    max-width: 300px;
+
     border-radius: 0px 8px 8px 0px;
 
     float: right;
@@ -198,6 +269,8 @@ body {
 }
 
 .imagem-4 img {
+    max-width: 300px;
+
     border-radius: 8px 0px 0px 8px;
 
     float: left;
@@ -216,6 +289,8 @@ body {
 }
 
 .imagem-5 img {
+    max-width: 300px;
+
     border-radius: 8px 0px 0px 8px;
 
     float: left;
@@ -223,4 +298,66 @@ body {
     margin-right: 30px;
 
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.sobre {
+    background-color: var(--bg1-color);
+
+    margin: 0;
+    padding: 0 0 300px 0;
+}
+
+.mim {
+    margin: 0 10%;
+    padding: 0 0 5% 0;
+}
+
+#sobre-title {
+    color: var(--txt-color);
+
+    text-align: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#meunome {
+    color: var(--txt-color);
+
+    text-align: left;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.ladoesq {
+    background-color: var(--bg1-color);
+
+    float: left;
+
+    width: 32%;
+
+    margin: 20px 0 0 10%;
+}
+
+#mps {
+    color: var(--txt-color);
+
+    text-align: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.ladodir {
+    background-color: var(--bg1-color);
+
+    float: right;
+
+    width: 32%;
+
+    margin: 20px 10% 0 0;
 }

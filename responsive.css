@@ -1,4 +1,24 @@
-@media (max-width: 359px) {
+@media (max-width: 389px) {
+    header {
+        height: 8vh;
+    }
+
+    header img {
+        width: 35%;
+
+        margin: 3px 32% 0;
+    }
+
+    header p {
+        visibility: hidden;
+    }
+
+    #title {
+        font-size: 25px;
+
+        padding-top: 30%;
+    }
+
     .imagem {
         width: 100vw;
         height: auto;
@@ -22,109 +42,144 @@
     }
 
     .videos {
+        margin-bottom: 300px;
         padding: 0;
-        margin-left: 3%;
-        margin-right: 3%;
 
-        width: 300px;
-
-        align-items: center;
+        width: 100vw;
     }
 
     iframe {
-        width: 300px;
         height: auto;
 
         float: none;
     }
 
-    #video-1, #video-2 {
-        margin-bottom: 20px;
+    #video-1 {
+        margin-bottom: 15px;
+        margin-left: 27%;
+
+        padding: 0;
+    }
+
+    #video-2 {
+        margin-right: 27%;
+
+        padding: 0;
     }
 
     .imagem-1 img {
-        width: 235px;
-
         border-radius: 8px;
 
         margin-bottom: 20px;
     }
 
     .imagem-1 {
-        background-color: var(--bg1-color);
-    
         padding: 10px 10px 26px 10px;
     
         border-radius: 8px 8px 0 0;
     }
 
     .imagem-2 img {
-        width: 235px;
-
         border-radius: 8px;
 
         margin-bottom: 20px;
     }
 
     .imagem-2 {
-        background-color: var(--bg1-color);
-    
         padding: 10px 10px 26px 10px;
     }
 
     .imagem-3 img {
-        width: 235px;
-
         border-radius: 8px;
 
         margin-bottom: 20px;
     }
     
     .imagem-3 {
-        background-color: var(--bg1-color);
-    
         padding: 10px 10px 26px 10px;
     }
 
     .imagem-4 img {
-        width: 235px;
-
         border-radius: 8px;
 
         margin-bottom: 20px;
     }
 
     .imagem-4 {
-        background-color: var(--bg1-color);
-    
         padding: 10px 10px 26px 10px;
     }
     
     .imagem-5 img {
-        width: 235px;
-
         border-radius: 8px;
 
         margin-bottom: 20px;
     }
 
     .imagem-5 {
-        background-color: var(--bg1-color);
-    
         padding: 10px 10px 10px 10px;
     
         border-radius: 8px 8px 0 0;
     }
+
+    .ladoesq {
+        background-color: var(--bg1-color);
+    
+        float: none;
+    
+        margin: 0;
+
+        width: 80%;
+
+        margin: 0 7% 0 8%;
+    }
+    
+    #mps {
+        color: var(--txt-color);
+    
+        text-align: center;
+    
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+    }
+    
+    .ladodir {
+        background-color: var(--bg1-color);
+    
+        float: none;
+    
+        margin: 0;
+
+        width: 80%;
+
+        margin: 0 7% 0 8%;
+    }
 }
 
-@media (max-width: 450px) and (min-width: 360px) {
+@media (max-width: 450px) and (min-width: 390px) {
+    header {
+        height: 8vh;
+    }
+
+    header img {
+        width: 30%;
+
+        margin: 3px 35% 0;
+    }
+
+    header p {
+        visibility: hidden;
+    }
+
     .imagem {
         width: 100vw;
         height: auto;
     }
 
     #title {
-        font-size: 33px;
+        font-size: 30px;
+
+        padding-top: 30%;
     }
 
     #subtitle {
@@ -135,28 +190,7 @@
         font-size: 20px;
     }
 
-    .videos {
-        padding: 0 10%;
-
-        width: 300px;
-
-        align-items: center;
-    }
-
-    iframe {
-        width: 300px;
-        height: auto;
-
-        float: none;
-    }
-
-    #video-1, #video-2 {
-        margin-bottom: 20px;
-    }
-
     .imagem-1 img {
-        width: 268px;
-
         border-radius: 8px;
 
         margin: 0 0 20px 0;
@@ -167,16 +201,12 @@
     }
 
     .imagem-1 {
-        background-color: var(--bg1-color);
-    
         padding: 10px 10px 26px 10px;
     
         border-radius: 8px 8px 0 0;
     }
 
     .imagem-2 img {
-        width: 268px;
-
         border-radius: 8px;
 
         margin: 0 0 20px 0;
@@ -187,14 +217,10 @@
     }
 
     .imagem-2 {
-        background-color: var(--bg1-color);
-    
         padding: 10px 10px 26px 10px;
     }
 
     .imagem-3 img {
-        width: 268px;
-
         border-radius: 8px;
 
         margin: 0 0 20px 0;
@@ -205,14 +231,10 @@
     }
     
     .imagem-3 {
-        background-color: var(--bg1-color);
-    
         padding: 10px 10px 26px 10px;
     }
 
     .imagem-4 img {
-        width: 268px;
-
         border-radius: 8px;
 
         margin: 0 0 20px 0;
@@ -223,14 +245,10 @@
     }
 
     .imagem-4 {
-        background-color: var(--bg1-color);
-    
         padding: 10px 10px 26px 10px;
     }
     
     .imagem-5 img {
-        width: 268px;
-
         border-radius: 8px;
 
         margin: 0 0 20px 0;
@@ -241,133 +259,66 @@
     }
 
     .imagem-5 {
-        background-color: var(--bg1-color);
-    
         padding: 10px 10px 10px 10px;
     
         border-radius: 8px 8px 0 0;
     }
+
+    .ladoesq {
+        background-color: var(--bg1-color);
+    
+        float: none;
+    
+        margin: 0;
+
+        width: 80%;
+
+        margin: 0 7% 0 8%;
+    }
+    
+    #mps {
+        color: var(--txt-color);
+    
+        text-align: center;
+    
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: normal;
+        font-size: 27px;
+    }
+    
+    .ladodir {
+        background-color: var(--bg1-color);
+    
+        float: none;
+    
+        margin: 0;
+
+        width: 80%;
+
+        margin: 0 7% 0 8%;
+    }
 }
 
-@media(max-width: 900px) and (min-width: 451px) {
-    .imagem {
-        width: 100vw;
-        height: auto;
+@media(max-width: 750px) and (min-width: 451px) {
+    header {
+        height: 10vh;
     }
 
-    #title {
-        font-size: 38px;
+    header img {
+        width: 35%;
+        min-width: 200px;
+        max-width: 300px;
+
+        margin: 3px 30% 0;
     }
 
-    #subtitle {
+    header p {
         visibility: hidden;
     }
 
-    #ODS {
-        font-size: 20px;
-    }
-
-    .videos {
-        padding: 1% 30%;
-
-        width: 300px;
-
-        align-items: center;
-    }
-
-    iframe {
-        width: 300px;
-        height: auto;
-
-        float: none;
-    }
-
-    #video-1, #video-2 {
-        margin-bottom: 20px;
-    }
-
-    .imagem-1 img {
-        width: 290px;
-
-        border-radius: 8px;
-
-        margin: 15px 25px 5px 0;
-    }
-
-    .imagem-1 {
-        background-color: var(--bg1-color);
-    
-        padding: 10px 10px 26px 10px;
-    
-        border-radius: 8px 8px 0 0;
-    }
-
-    .imagem-2 img {
-        width: 290px;
-
-        border-radius: 8px;
-
-        margin: 15px 5px 5px 25px;
-    }
-
-    .imagem-2 {
-        background-color: var(--bg1-color);
-    
-        padding: 10px 10px 26px 10px;
-    }
-
-    .imagem-3 img {
-        width: 290px;
-
-        border-radius: 8px;
-
-        margin: 15px 5px 5px 25px;
-    }
-    
-    .imagem-3 {
-        background-color: var(--bg1-color);
-    
-        padding: 10px 10px 26px 10px;
-    }
-
-    .imagem-4 img {
-        width: 290px;
-
-        border-radius: 8px;
-
-        margin: 15px 25px 5px 0;
-    }
-
-    .imagem-4 {
-        background-color: var(--bg1-color);
-    
-        padding: 10px 10px 26px 10px;
-    }
-    
-    .imagem-5 img {
-        width: 290px;
-
-        border-radius: 8px;
-
-        margin: 15px 25px 5px 0;
-    }
-
-    .imagem-5 {
-        background-color: var(--bg1-color);
-    
-        padding: 10px 10px 10px 10px;
-    
-        border-radius: 8px 8px 0 0;
-    }
-}
-
-@media(max-width: 1036px) and (min-width: 901px) {
-    .imagem {
-        width: 100vw;
-        height: auto;
-    }
-
     #title {
+        padding-top: 50%;
+
         font-size: 40px;
     }
 
@@ -375,27 +326,162 @@
         visibility: hidden;
     }
 
-    #ODS {
-        font-size: 20px;
+    .imagem-1 img {
+        border-radius: 8px;
+
+        margin: 15px 25px 5px 0;
     }
 
-    .videos {
-        padding: 1% 35%;
-
-        width: 300px;
-
-        align-items: center;
+    .imagem-1 {
+        padding: 10px 10px 26px 10px;
+    
+        border-radius: 8px 8px 0 0;
     }
 
-    iframe {
-        width: 300px;
-        height: auto;
+    .imagem-2 img {
+        border-radius: 8px;
 
-        float: none;
+        margin: 15px 5px 5px 25px;
     }
 
-    #video-1, #video-2 {
-        margin-bottom: 20px;
+    .imagem-2 {
+        padding: 10px 10px 26px 10px;
+    }
+
+    .imagem-3 img {
+        border-radius: 8px;
+
+        margin: 15px 5px 5px 25px;
+    }
+    
+    .imagem-3 {
+        padding: 10px 10px 26px 10px;
+    }
+
+    .imagem-4 img {
+        border-radius: 8px;
+
+        margin: 15px 25px 5px 0;
+    }
+
+    .imagem-4 {
+        padding: 10px 10px 26px 10px;
+    }
+    
+    .imagem-5 img {
+        border-radius: 8px;
+
+        margin: 15px 25px 5px 0;
+    }
+
+    .imagem-5 {
+        padding: 10px 10px 10px 10px;
+    
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+@media(max-width: 900px) and (min-width: 751px) {
+    header {
+        height: 10vh;
+    }
+
+    header img {
+        width: 25%;
+
+        margin: 2% 10% 0;
+    }
+
+    header p {
+        margin-top: 2%;
+    }
+
+    #title {
+        padding: 30% 0 0 0;
+    }
+
+    .imagem-1 img {
+        width: 50%;
+
+        border-radius: 8px;
+
+        margin: 15px 25px 5px 0;
+    }
+
+    .imagem-1 {
+        padding: 10px 10px 26px 10px;
+    
+        border-radius: 8px 8px 0 0;
+    }
+
+    .imagem-2 img {
+        width: 50%;
+
+        border-radius: 8px;
+
+        margin: 15px 5px 5px 25px;
+    }
+
+    .imagem-2 {
+        padding: 10px 10px 26px 10px;
+    }
+
+    .imagem-3 img {
+        width: 50%;
+
+        border-radius: 8px;
+
+        margin: 15px 5px 5px 25px;
+    }
+    
+    .imagem-3 {
+        padding: 10px 10px 26px 10px;
+    }
+
+    .imagem-4 img {
+        width: 50%;
+
+        border-radius: 8px;
+
+        margin: 15px 25px 5px 0;
+    }
+
+    .imagem-4 {
+        padding: 10px 10px 26px 10px;
+    }
+    
+    .imagem-5 img {
+        width: 50%;
+
+        border-radius: 8px;
+
+        margin: 15px 25px 5px 0;
+    }
+
+    .imagem-5 {
+        padding: 10px 10px 10px 10px;
+    
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+@media(max-width: 1035px) and (min-width: 901px) {
+    header {
+        height: 10vh;
+    }
+
+    header img {
+        width: 25%;
+
+        margin: 3% 10% 0;
+    }
+
+    header p {
+        margin-top: 5%;
+    }
+
+    #title {
+        padding: 30% 0 0 0;
     }
 
     .imagem-1 img {
