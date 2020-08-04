@@ -30,10 +30,17 @@ header {
     z-index: 10;
 }
 
-header img {
-    width: 190px;
+.logo {
+    width: 15vw;
 
-    margin: 20px 0 0 10%;
+    position: absolute;
+
+    margin: 2.5vh 0 0 10%;
+}
+
+header img {
+    width: 15vw;
+    min-width: 180px;
 
     filter: drop-shadow(1px 1px 3px #9898ff20);
 }
@@ -47,18 +54,18 @@ header a {
 header p {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.4vw;
 
     float: right;
 
-    margin: 35px 0 0 0;
+    margin: 3.9vh 0 0 0;
 
     background-color: var(--bg-color);
 
-    padding: 10px;
+    padding: 2vh;
     margin-right: 10px;
 
-    border-radius: 8px;
+    border-radius: 0.3vw;
 }
 
 header p:hover {
@@ -86,9 +93,9 @@ header p:hover {
 
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 3.5vw;
 
-    padding: 17% 20% 0;
+    padding: 40vh 10vw 0;
     margin-top: 0;
 
     transition: 400ms;
@@ -106,19 +113,19 @@ header p:hover {
 
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 2.75vw;
 
     transition: 400ms;
 
-    width: 20%;
-    height: 48px;
+    width: 15vw;
+    height: 7.5vh;
 
     border-style: solid;
     border-radius: 8px;
 
     background-color: rgba(000, 000, 000, 0.3);
 
-    margin: 0 40%;
+    margin: 0 41.3%;
 }
 
 #comecar {
@@ -126,13 +133,13 @@ header p:hover {
 }
 
 .topic-1 {
-    margin: 5% 10%;
+    margin: 10vh 10%;
 
     background-color: var(--bg1-color);
 
     border-radius: 8px;
 
-    padding: 2px 10px 2px 10px;
+    padding: 0.5vh 0.9vw;
 }
 
 #topic-1 {
@@ -142,7 +149,9 @@ header p:hover {
 
     font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 2.33vw;
+
+    margin-top: 2vh;
 }
 
 #ODS {
@@ -152,7 +161,7 @@ header p:hover {
 
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.55vw;
 }
 
 #ODS a {
@@ -162,8 +171,12 @@ header p:hover {
 }
 
 .videos {
-    padding: 0 15%;
-    margin-bottom: 300px;
+    padding: 0 14vw;
+    margin-bottom: 45vh;
+}
+
+iframe {
+    max-height: 37.5vh;
 }
 
 #video-1 {
@@ -179,7 +192,7 @@ header p:hover {
 }
 
 .topico-2 {
-    padding-bottom: 3%;
+    padding-bottom: 3vh;
 }
 
 #topico-2 {
@@ -187,7 +200,7 @@ header p:hover {
 }
 
 .como-ajudar {
-    padding: 0 10%;
+    padding: 0 10vw;
 
     margin-bottom: 100px;
 }
@@ -199,25 +212,25 @@ header p:hover {
 
     font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 2.33vw;
 }
 
 .imagem-1 {
     background-color: var(--bg1-color);
 
-    padding: 10px 10px 26px 10px;
+    padding: 10px 10px 50px 10px;
 
     border-radius: 8px 8px 0 0;
 }
 
 .imagem-1 img {
-    max-width: 300px;
+    width: 23vw;
 
     border-radius: 8px 0px 0px 8px;
 
     float: left;
 
-    margin-right: 30px;
+    margin-right: 2vw;
 
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
@@ -229,13 +242,13 @@ header p:hover {
 }
 
 .imagem-2 img {
-    max-width: 300px;
+    width: 23vw;
 
     border-radius: 0px 8px 8px 0px;
 
     float: right;
 
-    margin-left: 30px;
+    margin-left: 2vw;
 
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
@@ -243,39 +256,40 @@ header p:hover {
 .imagem-3 {
     background-color: var(--bg1-color);
 
-    padding: 10px 10px 115px 10px;
+    padding: 10px 10px 70px 10px;
 
-    margin: 0px 0;
+    margin: 0;
 }
 
 .imagem-3 img {
-    max-width: 300px;
-
-    border-radius: 0px 8px 8px 0px;
-
-    float: right;
-
-    margin-left: 30px;
-
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-}
-
-.imagem-4 {
-    background-color: var(--bg1-color);
-
-    padding: 10px 10px 100px 10px;
-
-    margin: 0px 0;
-}
-
-.imagem-4 img {
-    max-width: 300px;
+    width: 23vw;
 
     border-radius: 8px 0px 0px 8px;
 
     float: left;
 
-    margin-right: 30px;
+    margin-right: 2vw;
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+
+.imagem-4 {
+    background-color: var(--bg1-color);
+
+    padding: 10px 10px 115px 10px;
+
+    margin: 0;
+}
+
+.imagem-4 img {
+    width: 23vw;
+
+    border-radius: 0px 8px 8px 0px;
+
+    float: right;
+
+    margin-left: 2vw;
 
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
@@ -283,33 +297,43 @@ header p:hover {
 .imagem-5 {
     background-color: var(--bg1-color);
 
-    padding: 10px 10px 50px 10px;
+    padding: 10px 10px 45px 10px;
 
     border-radius: 0 0 8px 8px;
 }
 
 .imagem-5 img {
-    max-width: 300px;
+    width: 23vw;
 
     border-radius: 8px 0px 0px 8px;
 
     float: left;
 
-    margin-right: 30px;
+    margin-right: 2vw;
 
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+#sobre-link {
+    visibility: hidden;
+
+    padding: 0;
+
+    margin: 0;
 }
 
 .sobre {
     background-color: var(--bg1-color);
 
     margin: 0;
-    padding: 0 0 300px 0;
+    padding: 0 0 40vh 0;
 }
 
 .mim {
-    margin: 0 10%;
-    padding: 0 0 5% 0;
+    margin: 0 10vw;
+    padding: 0 0 5vh 0;
+
+    text-align: center;
 }
 
 #sobre-title {
@@ -319,7 +343,7 @@ header p:hover {
 
     font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 2.33vw;
 }
 
 #meunome {
@@ -329,7 +353,7 @@ header p:hover {
 
     font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 1.94vw;
 }
 
 .ladoesq {
@@ -337,9 +361,9 @@ header p:hover {
 
     float: left;
 
-    width: 32%;
+    width: 30vw;
 
-    margin: 20px 0 0 10%;
+    margin: 5vh 0 0 10vw;
 }
 
 #mps {
@@ -349,7 +373,7 @@ header p:hover {
 
     font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 2.33vw;
 }
 
 .ladodir {
@@ -357,7 +381,7 @@ header p:hover {
 
     float: right;
 
-    width: 32%;
+    width: 30vw;
 
-    margin: 20px 10% 0 0;
+    margin: 5vh 10vw 0 0;
 }
