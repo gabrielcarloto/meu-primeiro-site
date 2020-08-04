@@ -6,6 +6,12 @@
     --link-color: #000C3D;
 }
 
+.ubuntu-normal {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 2.33vw;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -80,7 +86,9 @@ header p:hover {
 
 .imagem {
     height: 100vh;
-    max-height: 1253px;
+    max-height: 1250px;
+
+    background-size: cover;
 
     background:url(https://images.pexels.com/photos/5808/food-healthy-vegetables-village.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
@@ -128,8 +136,11 @@ header p:hover {
     margin: 0 41.3%;
 }
 
-#comecar {
+#comecar,
+#topico-2,
+#sobre-link {
     visibility: hidden;
+    padding-bottom: 2%;
 }
 
 .topic-1 {
@@ -146,10 +157,6 @@ header p:hover {
     color: var(--txt-color);
 
     text-align: left;
-
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: normal;
-    font-size: 2.33vw;
 
     margin-top: 2vh;
 }
@@ -170,6 +177,19 @@ header p:hover {
     color: var(--link-color);
 }
 
+.ODS-dir,
+.ODS-esq {
+    transform: translateY(-10%);
+}
+
+.ODS-dir {
+    margin-right: 30px;
+}
+
+.ODS-esq {
+    margin-left: 30px;
+}
+
 .videos {
     padding: 0 14vw;
     margin-bottom: 45vh;
@@ -179,24 +199,21 @@ iframe {
     max-height: 37.5vh;
 }
 
+#video-1,
+#video-2 {
+    border-radius: 8px;
+}
+
 #video-1 {
     float: left;
-
-    border-radius: 8px;
 }
 
 #video-2 {
     float: right;
-    
-    border-radius: 8px;
 }
 
 .topico-2 {
     padding-bottom: 3vh;
-}
-
-#topico-2 {
-    visibility: hidden;
 }
 
 .como-ajudar {
@@ -209,117 +226,70 @@ iframe {
     color: var(--txt-color);
 
     text-align: center;
+}
 
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: normal;
-    font-size: 2.33vw;
+.imagem-1,
+.imagem-2,
+.imagem-3,
+.imagem-4,
+.imagem-5 {
+    background-color: var(--bg1-color);
+}
+
+.imagem-1 img,
+.imagem-3 img,
+.imagem-5 img {
+    border-radius: 8px 0px 0px 8px;
+
+    float: left;
+}
+
+.imagem-2 img,
+.imagem-4 img {
+    border-radius: 0px 8px 8px 0px;
+
+    float: right;
+}
+
+.imagem-1 img,
+.imagem-2 img,
+.imagem-3 img,
+.imagem-4 img,
+.imagem-5 img {  
+    width: 23vw;
+
+    margin-right: 2vw;
+    margin-left: 30px;
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
 .imagem-1 {
-    background-color: var(--bg1-color);
-
-    padding: 10px 10px 50px 10px;
+    padding: 40px 10px 50px 10px;
 
     border-radius: 8px 8px 0 0;
 }
 
-.imagem-1 img {
-    width: 23vw;
-
-    border-radius: 8px 0px 0px 8px;
-
-    float: left;
-
-    margin-right: 2vw;
-
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-}
-
 .imagem-2 {
-    background-color: var(--bg1-color);
-
     padding: 10px 10px 26px 10px;
 }
 
-.imagem-2 img {
-    width: 23vw;
-
-    border-radius: 0px 8px 8px 0px;
-
-    float: right;
-
-    margin-left: 2vw;
-
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-}
-
 .imagem-3 {
-    background-color: var(--bg1-color);
-
     padding: 10px 10px 70px 10px;
 
     margin: 0;
 }
 
-.imagem-3 img {
-    width: 23vw;
-
-    border-radius: 8px 0px 0px 8px;
-
-    float: left;
-
-    margin-right: 2vw;
-
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-}
-
-
 .imagem-4 {
-    background-color: var(--bg1-color);
-
     padding: 10px 10px 115px 10px;
 
     margin: 0;
 }
 
-.imagem-4 img {
-    width: 23vw;
-
-    border-radius: 0px 8px 8px 0px;
-
-    float: right;
-
-    margin-left: 2vw;
-
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-}
-
 .imagem-5 {
-    background-color: var(--bg1-color);
-
-    padding: 10px 10px 45px 10px;
+    padding: 10px 10px 65px 10px;
 
     border-radius: 0 0 8px 8px;
-}
-
-.imagem-5 img {
-    width: 23vw;
-
-    border-radius: 8px 0px 0px 8px;
-
-    float: left;
-
-    margin-right: 2vw;
-
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-}
-
-#sobre-link {
-    visibility: hidden;
-
-    padding: 0;
-
-    margin: 0;
 }
 
 .sobre {
@@ -342,7 +312,7 @@ iframe {
     text-align: center;
 
     font-family: 'Ubuntu', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 2.33vw;
 }
 
@@ -351,17 +321,20 @@ iframe {
 
     text-align: left;
 
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 1.94vw;
 }
 
-.ladoesq {
-    background-color: var(--bg1-color);
-
-    float: left;
-
+.ladoesq,
+.ladodir {
     width: 30vw;
+
+    background-color: var(--bg1-color);
+}
+
+.ladoesq {
+    float: left;
 
     margin: 5vh 0 0 10vw;
 }
@@ -370,18 +343,10 @@ iframe {
     color: var(--txt-color);
 
     text-align: center;
-
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: normal;
-    font-size: 2.33vw;
 }
 
 .ladodir {
-    background-color: var(--bg1-color);
-
     float: right;
-
-    width: 30vw;
 
     margin: 5vh 10vw 0 0;
 }

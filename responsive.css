@@ -1,9 +1,21 @@
+@media (max-width: 599px) {
+    .imagem-1 img,
+    .imagem-2 img,
+    .imagem-3 img,
+    .imagem-4 img,
+    .imagem-5 img {
+        float: none;
+        margin: 0 0 10px;
+    }
+}
+
 @media (max-width: 1000px) {
     header {
         height: 80px;
     }
 
-    .logo {
+    .logo,
+    .videos {
         width: 100%;
 
         position: relative;
@@ -21,7 +33,8 @@
         transform: translateX(-7%);
     }
 
-    header p {
+    header p,
+    #subtitle {
         visibility: hidden;
     }
 
@@ -29,25 +42,16 @@
         font-size: 32px;
     }
 
-    .dcomecar {
-        width: 100vw;
-    
-        position: relative;
-    
-        text-align: center;
-    }
-
-    #subtitle {
-        visibility: hidden;
-    }
-
-    #topic-1 {
-        font-size: 25px;
-    }
-
     #ODS {
         font-size: 18px;
     }
+
+    .ODS-dir,
+    .ODS-esq {
+        margin: 4vh 0;
+
+        transform: translateY(-15%);
+    } 
 
     .videos {
         margin-bottom: 5px;
@@ -64,113 +68,130 @@
         display: block;
 
         width: 75vw;
-        height: auto;
+        height: 200px;
     }
 
-    #topic-2 {
-        font-size: 25px;
-    }
-
+    #topic-1,
+    #topic-2,
     #sobre-title {
         font-size: 25px;
     }
 
-    #meunome {
-        font-size: 20px;
-    }
-
+    #meunome,
     #mps {
         font-size: 20px;
     }
 
-    .imagem-1 {
-        padding-bottom: 2vh;
-    }
-
-    .imagem-1 img {
-        width: 74.6vw;
-
-        max-width: 350px;
-
-        border-radius: 8px;
-
-        margin-bottom: 10px;
-    }
-
-    .imagem-2 {
-        padding-bottom: 2vh;
-    }
-    
-
-    .imagem-2 img {
-        width: 74.6vw;
-
-        max-width: 350px;
-
-        border-radius: 8px;
-
-        margin-bottom: 10px;
-    }
-
-    .imagem-3 {
-        padding-bottom: 2vh;
-    }
-
-    .imagem-3 img {
-        width: 74.6vw;
-
-        max-width: 350px;
-
-        border-radius: 8px;
-
-        margin-bottom: 10px;
-    }
-
+    .imagem-1,
+    .imagem-2,
+    .imagem-3,
     .imagem-4 {
         padding-bottom: 2vh;
-    }
-
-    .imagem-4 img {
-        width: 74.6vw;
-
-        max-width: 350px;
-
-        border-radius: 8px;
-
-        margin-bottom: 10px;
     }
 
     .imagem-5 {
         padding-bottom: 1vh;
     }
 
+    .imagem-1 img,
+    .imagem-2 img,
+    .imagem-3 img,
+    .imagem-4 img,
     .imagem-5 img {
         width: 74.6vw;
-
         max-width: 350px;
 
-        border-radius: 8px;
-
-        margin-bottom: 10px;
+        margin: 0 0 60px;
     }
 
-    .ladoesq {
-        background-color: var(--bg1-color);
+    .imagem-1 img,
+    .imagem-3 img,
+    .imagem-5 img {
+        margin-right: 20px;
+    }
 
+    .imagem-2 img,
+    .imagem-4 img {
+        margin-left: 20px;
+    }
+
+    .ladoesq,
+    .ladodir {
         float: none;
     
         width: auto;
-    
+    }
+
+    .ladoesq {
         margin: 5vh 10vw;
     }
 
     .ladodir {
-        background-color: var(--bg1-color);
-
-        float: none;
-    
-        width: auto;
-    
         margin: 3vh 10vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    header {
+        height: 162;
+    }
+
+    header img {
+        margin-top: 10px;
+    }
+
+    .imagem {
+        margin: 0 10%;
+    }
+
+    #subtitle {
+        margin: 0 40%;
+
+        height: 7vh;
+    }
+
+    #video-1, #video-2 {
+        height: 32vh;
+    }
+
+    .imagem-1 {
+        padding-top: 2%;
+    }
+
+    .imagem-1 img {
+        width: 25vw;
+    }
+
+    .imagem-2 {
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+
+    .imagem-2 img {
+        width: 25vw;
+    }
+
+    .imagem-3 {
+        padding-bottom: 8%;
+    }
+
+    .imagem-3 img {
+        width: 25vw;
+    }
+
+    .imagem-4 {
+        padding-bottom: 12%;
+    }
+
+    .imagem-4 img {
+        width: 25vw;
+    }
+
+    .imagem-5 {
+        padding-bottom: 7%;
+    }
+
+    .imagem-5 img {
+        width: 25vw;
     }
 }
