@@ -244,21 +244,21 @@
     .vetor {
         float: none;
         display: block;
-        width: 21.73vw;
-        height: 18vh;
+        width: 89px;
+        height: 100px;
         text-align: center;
         border-radius: 8px;
         margin: 70px 35% 0;
     }
 
         .vetor img {
-            width: 19.32vw;
+            width: 79px;
             padding: 0;
             margin-top: 10%;
         }
 
             .vetor img:hover {
-                width: 24.15vw;
+                width: 26vw;
                 padding: 10%;
                 transform: translateY(-17%) translateX(-8%);
                 border-radius: 8px;
