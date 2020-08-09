@@ -1,197 +1,380 @@
-@media (max-width: 599px) {
-    .imagem-1 img,
-    .imagem-2 img,
-    .imagem-3 img,
-    .imagem-4 img,
-    .imagem-5 img {
-        float: none;
-        margin: 0 0 10px;
-    }
-}
+@media (max-width: 750px) {
 
-@media (max-width: 1000px) {
-    header {
-        height: 80px;
-    }
-
-    .logo,
-    .videos {
-        width: 100%;
-
-        position: relative;
-
+    /* ROOT */
+    .topic {
+        font-size: 5vw;
         text-align: center;
-
-        margin: auto;
+        margin: 0;
     }
 
-    header img {
-        width: 180px;
-
-        margin: 13px 0;
-
-        transform: translateX(-7%);
+    .text {
+        font-size: 3.8vw;
     }
 
-    header p,
-    #subtitle {
+    /* HEADER */
+    header {
+        height: 70px;
+        transform: translateY(-50%);
+        display: block;
+    }
+
+        header .logo {
+            text-align: center;
+            width: 100%;
+            margin: 20px 0 0 0;
+        }
+
+            header .logo img {
+                width: 150px;
+            }
+
+                header .logo img:hover {
+                    width: 175px;
+                    transform: translateY(-8%);
+                }
+
+        header .links {
+            visibility: hidden;
+        }
+    
+    /* LANDING */
+    .imagem {
+        transform: translateY(0);
+    }
+
+    #title,
+    #title1 {
+        font-size: 9.2vw;
+    }
+
+    .subtitle {
         visibility: hidden;
     }
-
-    #title {
-        font-size: 32px;
-    }
-
-    #ODS {
-        font-size: 18px;
-    }
-
-    .ODS-dir,
-    .ODS-esq {
-        margin: 4vh 0;
-
-        transform: translateY(-15%);
-    } 
-
+    
+    /* VIDEOS */
     .videos {
-        margin-bottom: 5px;
-    }
-
-    #video-1 {
-        margin-bottom: 10px;
-    }
-
-    #video-1,
-    #video-2 {
-        float: none;
-
         display: block;
+        text-align: center;
+    }
 
-        width: 75vw;
+    .videos #vid-1,
+    #vid-2 {
+        max-width: 350px;
         height: 200px;
     }
 
-    #topic-1,
-    #topic-2,
-    #sobre-title {
-        font-size: 25px;
+    /* TÓPICOS */
+    .linha {
+        visibility: hidden;
     }
 
-    #meunome,
-    #mps {
-        font-size: 20px;
+    .topic-2 section,
+    .topic-3 section {
+        text-align: center;
     }
 
-    .imagem-1,
-    .imagem-2,
-    .imagem-3,
-    .imagem-4 {
-        padding-bottom: 2vh;
-    }
-
-    .imagem-5 {
-        padding-bottom: 1vh;
-    }
-
-    .imagem-1 img,
-    .imagem-2 img,
-    .imagem-3 img,
-    .imagem-4 img,
-    .imagem-5 img {
-        width: 74.6vw;
-        max-width: 350px;
-
-        margin: 0 0 60px;
-    }
-
-    .imagem-1 img,
-    .imagem-3 img,
-    .imagem-5 img {
-        margin-right: 20px;
-    }
-
-    .imagem-2 img,
-    .imagem-4 img {
-        margin-left: 20px;
-    }
-
-    .ladoesq,
-    .ladodir {
+    .vetor {
         float: none;
+        display: block;
+        width: 21.73vw;
+        height: 14vh;
+        text-align: center;
+        border-radius: 8px;
+        margin: 30px 35% 0;
+    }
+
+        .vetor img {
+            width: 19.32vw;
+            padding: 0;
+            margin-top: 10%;
+        }
+
+            .vetor img:hover {
+                width: 24.15vw;
+                padding: 10%;
+                transform: translateY(-17%) translateX(-8%);
+                border-radius: 8px;
+            }
+
+    .texto {
+        height: 120px;
+        text-align: justify;
+    }
     
-        width: auto;
+        .texto h3 {
+            padding: 3%;
+            background-color: var(--bg1-color);
+            border-radius: 8px;
+        }
+
+    .saco {
+        height: 45vh;
     }
 
-    .ladoesq {
-        margin: 5vh 10vw;
+    .energia {
+        height: 50vh;
     }
 
-    .ladodir {
-        margin: 3vh 10vw;
+    .agua {
+        height: 38vh;
     }
+
+    .carro-eco {
+        height: 35vh;
+    }
+
+    .bateria {
+        height: 48vh;
+    }
+
+    .bloco-eco {
+        height: 35vh;
+    }
+
+    .papel {
+        height: 35vh;
+    }
+
+    .veiculo {
+        height: 35vh;
+    }
+
+    .canecas {
+        height: 35vh;
+    }
+
+    .plugue {
+        height: 39vh;
+    }
+
+    /* FOOTER */
+    footer {
+        padding-bottom: 50px;
+    }
+
+        .direito,
+        .esquerdo {
+            float: none;
+            margin: auto;
+
+            width: 80%;
+        }
+
+            .direito h3,
+            .esquerdo h3 {
+                text-align: center;
+            }
+}
+
+@media (min-width: 751px) and (max-width: 1100px) {
+    
+    /* ROOT */
+    .topic {
+        font-size: 5vw;
+        text-align: center;
+        margin: 0;
+    }
+
+    .text {
+        font-size: 3.8vw;
+    }
+
+    /* HEADER */
+    header {
+        height: 70px;
+        transform: translateY(-68%);
+        display: block;
+    }
+
+        header .logo {
+            text-align: center;
+            width: 100%;
+            margin: 10px 0 0 0;
+        }
+
+            header .logo img {
+                width: 150px;
+            }
+
+                header .logo img:hover {
+                    width: 175px;
+                    transform: translateY(-8%);
+                }
+
+        header .links {
+            visibility: hidden;
+        }
+    
+    /* LANDING */
+    .imagem {
+        transform: translateY(0);
+    }
+
+    #title,
+    #title1 {
+        font-size: 9.2vw;
+    }
+
+    .subtitle {
+        visibility: hidden;
+    }
+    
+    /* VIDEOS */
+    .videos {
+        display: block;
+        text-align: center;
+    }
+
+    .videos #vid-1,
+    #vid-2 {
+        max-width: 350px;
+        height: 200px;
+    }
+
+    /* TÓPICOS */
+    .linha {
+        visibility: hidden;
+    }
+
+    .topic-2 section,
+    .topic-3 section {
+        text-align: center;
+    }
+
+    .vetor {
+        float: none;
+        display: block;
+        width: 21.73vw;
+        height: 18vh;
+        text-align: center;
+        border-radius: 8px;
+        margin: 70px 35% 0;
+    }
+
+        .vetor img {
+            width: 19.32vw;
+            padding: 0;
+            margin-top: 10%;
+        }
+
+            .vetor img:hover {
+                width: 24.15vw;
+                padding: 10%;
+                transform: translateY(-17%) translateX(-8%);
+                border-radius: 8px;
+            }
+
+    .texto {
+        height: 120px;
+        text-align: justify;
+    }
+    
+        .texto h3 {
+            padding: 5%;
+            background-color: var(--bg1-color);
+            border-radius: 8px;
+        }
+
+    .saco {
+        height: 60vh;
+    }
+
+    .energia {
+        height: 70vh;
+    }
+
+    .agua {
+        height: 50vh;
+    }
+
+    .carro-eco {
+        height: 43vh;
+    }
+
+    .bateria {
+        height: 56vh;
+    }
+
+    .bloco-eco {
+        height: 50vh;
+    }
+
+    .veiculo {
+        height: 47vh;
+    }
+
+    .papel {
+        height: 43vh;
+    }
+
+    .canecas {
+        height: 43vh;
+    }
+
+    .plugue {
+        height: 45vh;
+    }
+
+    .texto-sobre {
+        height: 25vh;
+    }
+
+    /* FOOTER */
+    footer {
+        padding-bottom: 50px;
+    }
+
+        .direito,
+        .esquerdo {
+            float: none;
+            margin: auto;
+
+            width: 80%;
+        }
+
+            .direito h3,
+            .esquerdo h3 {
+                text-align: center;
+            }
 }
 
 @media (min-width: 1920px) {
+    /* ROOT */
+    .topic {
+        font-size: 1.6vw;
+    }
+
+    .text {
+        font-size: 0.86vw;
+    }
+
+    /* HEADER */
     header {
-        height: 162;
+        height: 120px;
     }
 
-    header img {
-        margin-top: 10px;
-    }
+        header .logo {
+            margin-top: 5px;
+        }
 
+        header .links {
+            margin-top: 5px;
+        }
+
+    /* LANDING */
     .imagem {
+        max-width: 1880px;
         margin: 0 10%;
+        max-height: 800px;
     }
 
-    #subtitle {
-        margin: 0 40%;
-
-        height: 7vh;
+    #title,
+    #title1 {
+        font-size: 2.5vw;
+        transform: translateY(2500%);
     }
 
-    #video-1, #video-2 {
-        height: 32vh;
-    }
-
-    .imagem-1 {
-        padding-top: 2%;
-    }
-
-    .imagem-1 img {
-        width: 25vw;
-    }
-
-    .imagem-2 {
-        padding-top: 4%;
-        padding-bottom: 3%;
-    }
-
-    .imagem-2 img {
-        width: 25vw;
-    }
-
-    .imagem-3 {
-        padding-bottom: 8%;
-    }
-
-    .imagem-3 img {
-        width: 25vw;
-    }
-
-    .imagem-4 {
-        padding-bottom: 12%;
-    }
-
-    .imagem-4 img {
-        width: 25vw;
-    }
-
-    .imagem-5 {
-        padding-bottom: 7%;
-    }
-
-    .imagem-5 img {
-        width: 25vw;
+    .subtitle {
+        visibility: hidden;
     }
 }
