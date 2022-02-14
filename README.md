@@ -6,6 +6,8 @@
   <img src="https://ik.imagekit.io/698xlahbaqz/producao_e_consumo_responsaveis_1-MfzAx4BCR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644802355520" />
 </h1>
 
+### [Acesse o site](https://gabrielcarloto.github.io/meu-primeiro-site/)
+
 <div style="height: 1px; width: 100%; background-color: #484b55; margin: 25px 0"></div>
 
 ## :clipboard: Sobre
