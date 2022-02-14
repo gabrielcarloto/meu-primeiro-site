@@ -6,7 +6,7 @@
   <img src="https://ik.imagekit.io/698xlahbaqz/producao_e_consumo_responsaveis_1-MfzAx4BCR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644802355520" />
 </h1>
 
----
+<div style="height: 1px; width: 100%; background-color: #484b55; margin: 25px 0"></div>
 
 ## :clipboard: Sobre
 
@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido, inicialmente, em 2020, durante o curso *Meu Prime
 - CSS3
 - Javascript
 
----
+<div style="height: 1px; width: 100%; background-color: #484b55; margin: 25px 0"></div>
 
 ## :file_folder: Como baixar o projeto
 
