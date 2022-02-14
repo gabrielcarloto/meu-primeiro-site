@@ -21,7 +21,7 @@ Então decidi fazer tudo novamente, arrumando as coisas que me incomodavam. A re
 
 ## Sobre o js
 
-**tl;dr:** acho que é possível diminuir o código, mas não sei como. ainda.
+**tl;dr:** acho que é possível diminuir o código, mas não sei como. ainda. **atualização 20h depois:** já consegui.
 
 No site antigo, havia um `<header>` com um logo e alguns botões que levavam às seções da página. Eu queria fazer algo assim, mas não dessa forma. Então decidi fazer uma tabela de conteúdos simples (que só aparece em telas grandes).
 
@@ -47,3 +47,14 @@ Eu sei que posso fazer um `forEach()` com o `headings` e pegar os valores que pr
 ```
 
 Acho que seria ótimo se eu conseguisse diminuir esse código. Quem sabe no futuro, não?
+
+***ATUALIZAÇÃO:*** EU CONSEGUI!!!! Bem mais rápido do que pensei que seria. A solução foi essa:
+
+```js
+  const headings = document.querySelectorAll('.main__title')
+  const headingTopPositions = []
+
+  headings.forEach(heading => {
+    headingTopPositions.push(heading.getBoundingClientRect().top)
+  })
+```

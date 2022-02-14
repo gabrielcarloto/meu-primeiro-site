@@ -9,7 +9,7 @@ function handleScroll(top) {
   })
 }
 
-landingButton.addEventListener('click', () => handleScroll(top = firstHeadingTop));
+landingButton.addEventListener('click', () => handleScroll(top = headingTopPositions[0]));
 
 
 // a tabela de conteúdos deve aparecer apenas quando o scroll estiver no primeiro parágrafo
@@ -22,7 +22,7 @@ let scrollPosition = 0
 
 document.addEventListener('scroll', (e) => {
   scrollPosition = window.scrollY
-  if (scrollPosition >= firstHeadingTop - 100) {
+  if (scrollPosition >= headingTopPositions[0] - 100) {
     outline.style.left = '20px'
     outlineContainer.style.transform = 'translateX(10px)'
   } else {
@@ -35,10 +35,11 @@ document.addEventListener('scroll', (e) => {
 // e ao clicar em cada <li>, o scroll é feito para cada parágrafo correspondente
 
 const headings = document.querySelectorAll('.main__title')
-const firstHeadingTop = headings[0].getBoundingClientRect().top
-const secondHeadingTop = headings[1].getBoundingClientRect().top
-const thirdHeadingTop = headings[2].getBoundingClientRect().top
-const fourthHeadingTop = headings[4].getBoundingClientRect().top
+const headingTopPositions = []
+
+headings.forEach(heading => {
+  headingTopPositions.push(heading.getBoundingClientRect().top)
+})
 
 outlineList.forEach((item) => {
   item.addEventListener('mouseout', () => {
@@ -49,7 +50,6 @@ outlineList.forEach((item) => {
 
   item.addEventListener('click', () => {
     const index = item.dataset.index
-    headingsTop = [firstHeadingTop, secondHeadingTop, thirdHeadingTop, fourthHeadingTop]
-    handleScroll(top = headingsTop[index])
+    handleScroll(top = headingTopPositions[index])
   })
 })
