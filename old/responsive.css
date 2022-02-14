@@ -1,0 +1,380 @@
+@media (max-width: 750px) {
+
+    /* ROOT */
+    .topic {
+        font-size: 5vw;
+        text-align: center;
+        margin: 0;
+    }
+
+    .text {
+        font-size: 3.8vw;
+    }
+
+    /* HEADER */
+    header {
+        height: 70px;
+        transform: translateY(-50%);
+        display: block;
+    }
+
+        header .logo {
+            text-align: center;
+            width: 100%;
+            margin: 20px 0 0 0;
+        }
+
+            header .logo img {
+                width: 150px;
+            }
+
+                header .logo img:hover {
+                    width: 175px;
+                    transform: translateY(-8%);
+                }
+
+        header .links {
+            visibility: hidden;
+        }
+    
+    /* LANDING */
+    .imagem {
+        transform: translateY(0);
+    }
+
+    #title,
+    #title1 {
+        font-size: 9.2vw;
+    }
+
+    .subtitle {
+        visibility: hidden;
+    }
+    
+    /* VIDEOS */
+    .videos {
+        display: block;
+        text-align: center;
+    }
+
+    .videos #vid-1,
+    #vid-2 {
+        max-width: 350px;
+        height: 200px;
+    }
+
+    /* TÓPICOS */
+    .linha {
+        visibility: hidden;
+    }
+
+    .topic-2 section,
+    .topic-3 section {
+        text-align: center;
+    }
+
+    .vetor {
+        float: none;
+        display: block;
+        width: 21.73vw;
+        height: 14vh;
+        text-align: center;
+        border-radius: 8px;
+        margin: 30px 35% 0;
+    }
+
+        .vetor img {
+            width: 19.32vw;
+            padding: 0;
+            margin-top: 10%;
+        }
+
+            .vetor img:hover {
+                width: 24.15vw;
+                padding: 10%;
+                transform: translateY(-17%) translateX(-8%);
+                border-radius: 8px;
+            }
+
+    .texto {
+        height: 120px;
+        text-align: justify;
+    }
+    
+        .texto h3 {
+            padding: 3%;
+            background-color: var(--bg1-color);
+            border-radius: 8px;
+        }
+
+    .saco {
+        height: 45vh;
+    }
+
+    .energia {
+        height: 50vh;
+    }
+
+    .agua {
+        height: 38vh;
+    }
+
+    .carro-eco {
+        height: 35vh;
+    }
+
+    .bateria {
+        height: 48vh;
+    }
+
+    .bloco-eco {
+        height: 35vh;
+    }
+
+    .papel {
+        height: 35vh;
+    }
+
+    .veiculo {
+        height: 35vh;
+    }
+
+    .canecas {
+        height: 35vh;
+    }
+
+    .plugue {
+        height: 39vh;
+    }
+
+    /* FOOTER */
+    footer {
+        padding-bottom: 50px;
+    }
+
+        .direito,
+        .esquerdo {
+            float: none;
+            margin: auto;
+
+            width: 80%;
+        }
+
+            .direito h3,
+            .esquerdo h3 {
+                text-align: center;
+            }
+}
+
+@media (min-width: 751px) and (max-width: 1100px) {
+    
+    /* ROOT */
+    .topic {
+        font-size: 5vw;
+        text-align: center;
+        margin: 0;
+    }
+
+    .text {
+        font-size: 3.8vw;
+    }
+
+    /* HEADER */
+    header {
+        height: 70px;
+        transform: translateY(-68%);
+        display: block;
+    }
+
+        header .logo {
+            text-align: center;
+            width: 100%;
+            margin: 10px 0 0 0;
+        }
+
+            header .logo img {
+                width: 150px;
+            }
+
+                header .logo img:hover {
+                    width: 175px;
+                    transform: translateY(-8%);
+                }
+
+        header .links {
+            visibility: hidden;
+        }
+    
+    /* LANDING */
+    .imagem {
+        transform: translateY(0);
+    }
+
+    #title,
+    #title1 {
+        font-size: 9.2vw;
+    }
+
+    .subtitle {
+        visibility: hidden;
+    }
+    
+    /* VIDEOS */
+    .videos {
+        display: block;
+        text-align: center;
+    }
+
+    .videos #vid-1,
+    #vid-2 {
+        max-width: 350px;
+        height: 200px;
+    }
+
+    /* TÓPICOS */
+    .linha {
+        visibility: hidden;
+    }
+
+    .topic-2 section,
+    .topic-3 section {
+        text-align: center;
+    }
+
+    .vetor {
+        float: none;
+        display: block;
+        width: 89px;
+        height: 100px;
+        text-align: center;
+        border-radius: 8px;
+        margin: 70px 35% 0;
+    }
+
+        .vetor img {
+            width: 79px;
+            padding: 0;
+            margin-top: 10%;
+        }
+
+            .vetor img:hover {
+                width: 26vw;
+                padding: 10%;
+                transform: translateY(-17%) translateX(-8%);
+                border-radius: 8px;
+            }
+
+    .texto {
+        height: 120px;
+        text-align: justify;
+    }
+    
+        .texto h3 {
+            padding: 5%;
+            background-color: var(--bg1-color);
+            border-radius: 8px;
+        }
+
+    .saco {
+        height: 60vh;
+    }
+
+    .energia {
+        height: 70vh;
+    }
+
+    .agua {
+        height: 50vh;
+    }
+
+    .carro-eco {
+        height: 43vh;
+    }
+
+    .bateria {
+        height: 56vh;
+    }
+
+    .bloco-eco {
+        height: 50vh;
+    }
+
+    .veiculo {
+        height: 47vh;
+    }
+
+    .papel {
+        height: 43vh;
+    }
+
+    .canecas {
+        height: 43vh;
+    }
+
+    .plugue {
+        height: 45vh;
+    }
+
+    .texto-sobre {
+        height: 25vh;
+    }
+
+    /* FOOTER */
+    footer {
+        padding-bottom: 50px;
+    }
+
+        .direito,
+        .esquerdo {
+            float: none;
+            margin: auto;
+
+            width: 80%;
+        }
+
+            .direito h3,
+            .esquerdo h3 {
+                text-align: center;
+            }
+}
+
+@media (min-width: 1920px) {
+    /* ROOT */
+    .topic {
+        font-size: 1.6vw;
+    }
+
+    .text {
+        font-size: 0.86vw;
+    }
+
+    /* HEADER */
+    header {
+        height: 120px;
+    }
+
+        header .logo {
+            margin-top: 5px;
+        }
+
+        header .links {
+            margin-top: 5px;
+        }
+
+    /* LANDING */
+    .imagem {
+        max-width: 1880px;
+        margin: 0 10%;
+        max-height: 800px;
+    }
+
+    #title,
+    #title1 {
+        font-size: 2.5vw;
+        transform: translateY(2500%);
+    }
+
+    .subtitle {
+        visibility: hidden;
+    }
+}

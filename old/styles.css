@@ -1,0 +1,316 @@
+/* HEADER */
+
+header {
+    background-color: var(--bg1-color);
+
+    width: 100vw;
+    height: 82px;
+    position: fixed;
+    z-index: 10;
+    transform: translateY(-37%);
+
+    filter: drop-shadow(0 0 0.75rem #12121270);
+
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    header .logo {
+        width: 200px;
+        position: absolute;
+        margin: 2px 10%;
+    }
+
+        header .logo img {
+            width: 200px;
+
+            transition: 400ms;
+        }
+
+            header .logo img:hover {
+                width: 220px;
+            }
+
+    header .links { 
+        text-align: end;
+        margin: 0 10%;
+        width: 100%;
+    }
+
+        header .links a {
+            background-color: var(--bg-color);
+
+            border-radius: 8px;
+            padding: 1.5%;
+
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: normal;
+            font-size: 17px;
+            color: var(--txt-color);
+
+            transition: 400ms;
+        }
+
+            header .links a:hover {
+                font-size: 20px;
+
+                background-color: #cecece;
+            }
+
+
+
+/* LANDING */
+
+.imagem {
+    height: 100vh;
+    max-height: 1250px;
+
+    background-size: cover;
+
+    background:url(https://images.pexels.com/photos/5808/food-healthy-vegetables-village.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+    margin-top: 0;
+
+    transform: translateY(-4.5%);
+}
+
+#title,
+#title1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+
+    line-height: 15px;
+
+    color: var(--title-color);
+
+    text-align: center;
+
+    transform: translateY(1550%);
+
+    text-shadow: 0 0 10px #000;
+}
+
+.subtitle {
+    width: 20vw;
+
+    margin: 0 40.5%;
+
+    transform: translateY(450%);
+}
+
+    .subtitle:hover {
+        margin: 0 40%;
+
+        transition: 400ms;
+    }
+
+    #subtitle {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+
+        color: var(--title-color);
+
+        border: 5px solid white;
+        border-radius: 8px;
+
+        height: 45px;
+        width: 90%;
+
+        background-color: rgba(0, 0, 0, 0.2);
+
+        margin: 0;
+
+        text-align: center;
+        text-shadow: 0 0 10px #000;
+
+        transition: 400ms;
+    }
+
+        #subtitle:hover {
+            font-size: 40px;
+
+            width: 95%;
+            height: 50px;
+
+            background-color: rgba(0, 0, 0, 0.5);
+
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+            transform: translateY(-41%);
+        }
+
+
+
+/* TÓPICOS */
+
+.linha {
+    margin: 25px 10% 0;
+}
+
+.topic-1 img:hover {
+    width: 60px;
+    
+    transform: translateY(-40%);
+
+    transition: 400ms;
+}
+
+.topic-1 h3 {
+    background-color: var(--bg1-color);
+
+    padding: 1.5%;
+
+    border-radius: 8px;
+
+    margin: 30px 15% 0;
+}
+
+.topic-1 a {
+    color: var(--link-color);
+}
+
+.videos {
+    margin: 30px 15% 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .videos #vid-1,
+    #vid-2 {
+        max-width: 350px;
+
+        border-radius: 8px;
+    }
+
+.topic-2 h2 {
+    margin-top: 0px;
+}
+
+.texto {
+    width: 100%;
+    height: 140px;
+
+    border-radius: 8px;
+
+    background-color: var(--bg1-color);
+}
+
+    .texto h3 {
+        padding: 3vh 1vw 4vh 20%;
+    }
+
+.vetor {
+    float: left;
+
+    background-color: #dbdbdb;
+
+    border-radius: 8px 0 0 8px;
+}
+
+    .vetor img {
+        width: 100px;
+        padding: 20px 30px;
+
+        border-radius: 8px 0 0 8px;
+
+        filter: drop-shadow(5px 2px 5px #262683);
+
+        transition: 400ms;
+
+    }
+
+        .vetor img:hover {
+            width: 110px;
+
+            transform: translateY(-3%);
+
+            background-color: #a1a1a1;
+        }
+
+.saco {
+    margin: 30px 10% 0;
+}
+
+.bloco-eco {
+    margin: 30px 10% 0;
+}
+
+.energia,
+.agua,
+.carro-eco,
+.bateria,
+.papel,
+.veiculo,
+.canecas,
+.plugue {
+    margin: 10px 10%;
+}
+
+.topic-3 {
+    margin-top: 4%;
+}
+
+/* SOBRE */
+
+.sobre {
+    margin: 10px 10% 30px;
+}
+
+    .texto-sobre {
+        width: 100%;
+        height: 22vh;
+
+        border-radius: 8px;
+
+        background-color: var(--bg1-color);
+    }
+
+        .texto-sobre h3 {
+            padding: 4.5%;
+
+            text-align: justify;
+        }
+
+/* FOOTER */
+
+footer {
+    background-color: #dfdfdf;
+
+    padding: 3.5% 0 15%;
+}
+
+    .direito {
+        float: left;
+
+        margin: auto 5% auto 10%;
+    }
+
+    .esquerdo {
+        float: right;
+
+        margin: auto 10% auto 5%;
+    }
+
+    .direito,
+    .esquerdo {
+        width: 27%;
+    }
+
+        .direito #meusite,
+        .esquerdo #creditos {
+            margin: 20px 0;
+
+            text-align: center;
+        }
+
+        .direito h3,
+        .esquerdo h3 {
+            text-align: justify;
+        }

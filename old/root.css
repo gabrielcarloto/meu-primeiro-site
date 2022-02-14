@@ -1,0 +1,50 @@
+:root {
+    --bg-color: #E8ECEE;
+    --bg1-color: #F3F5F6;
+    --title-color: #F9F9F9;
+    --txt-color: #00030F;
+    --link-color: #000C3D;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    scroll-behavior: smooth;
+
+    background-color: var(--bg-color);
+}
+
+/* TEXTOS */
+
+a {
+    text-decoration: none;
+}
+
+#topic-1-link,
+#topic-2-link,
+#sobre-link {
+    visibility: hidden;
+
+    margin: 0px;
+    padding: 3%;
+}
+
+.topic {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 26px;
+
+    text-align: left;
+
+    margin: 0 20px 0 11%;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+
+    color: var(--txt-color);
+}

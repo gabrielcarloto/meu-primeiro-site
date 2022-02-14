@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produção e Consumo Responsáveis</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="root.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="outline">
+    <p class="outline__title">Conteúdo</p>
+    <div class="outline__list-container">
+      <ul>
+        <li class="outline__list" style="width: 75px; --visibility: hidden;" data-index="0">
+          O que é?
+        </li>
+        <li class="outline__list" style="width: 60px; --visibility: hidden;" data-index="1">
+          Vídeos
+        </li>
+        <li class="outline__list" style="width: 225px; --visibility: hidden;" data-index="2">
+          Você também pode ajudar!
+        </li>
+        <li class="outline__list" style="width: 50px; --visibility: hidden;" data-index="3">
+          Sobre
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="landing">
+    <h1 class="landing__title desktop">Produção e Consumo Responsáveis</h1>
+    <h1 class="landing__title mobile">Produção e</h1>
+    <h1 class="landing__title mobile">Consumo</h1>
+    <h1 class="landing__title mobile">Responsáveis</h1>
+    <button class="landing__button" id="landing__button">O que é?</button>
+  </div>
+
+  <article class="main">
+    <div class="main__container">
+      <div class="main__paragraph">
+        <div class="main__card">
+          <h2 class="main__title main__title--inside" id="#title">O que é?</h2>
+          <p class="main__text">
+            Produção e consumo responsáveis é um dos 17 <a
+            href="https://nacoesunidas.org/pos2015/">Objetivos de Desenvolvimento
+            Sustentável (ODS)</a> estabelecidos pela ONU, em 2015, compondo uma agenda
+            mundial projetada para orientar implementação de políticas públicas que visam guiar a humanidade a um mundo
+            mais justo e sustentável até 2030.
+          </p>
+          <p class="main__text main__text--break">
+            O 12° objetivo busca reduzir nossa pegada ecológica e <mark>mudar a maneira como produzimos e
+            consumimos bens e recursos</mark>. O gerenciamento eficaz dos recursos naturais e a forma como descartamos resíduos
+            e poluentes são alvos importantes para alcançar esse objetivo.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="main__videos">
+        <div class="main__videos__container">
+          <div class="main__card main__card--video">
+            <h2 class="main__title main__title--inside">Vídeos</h2>
+            <h3 class="main__videos--title">Objetivos de Desenvolvimento Sustentável • IBGE Explica</h3>
+            <iframe src="https://www.youtube.com/embed/Fev2MHAa-qo" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="main__card main__card--video main__card--video--bottom">
+            <h3 class="main__videos--title">ODS #12: Consumo e produção responsáveis • IBGE Explica</h3>
+            <iframe src="https://www.youtube.com/embed/tMtMphzAcK8" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="main__paragraph">
+        <div class="main__card">
+          <h2 class="main__title main__title--inside desktop">Você também pode ajudar!</h2>
+          <h2 class="main__title main__title--inside mobile">Você também pode ajudar!</h2>
+          <p class="main__text">
+            Uma boa forma de ajudar o meio ambiente é, ao fazer compras, <mark>avaliar se as embalagens são realmente
+             necessárias, dando preferência a produtos não embalados</mark> (como alimentos frescos) e evitando o
+             excesso de lixo, ou se são compostas por materiais ecológicos. 
+             Também ao comprar produtos embalados, escolher aqueles que trazem quantidade suficiente para sua
+             família e não comprar por impulso, evitando desperdício.
+          </p>
+      </div>
+      <div class="main__cards-container">
+        <div class="main__card main__card--image main__card--left energia">
+          <img class="svg" src="old/img/energia.svg" alt="Símbolo de energia">
+        </div>
+        <div class="main__card main__card--right card-energia">
+          <p class="main__text">Outra forma de contribuir é, sempre que possível, apagar as luzes e optar por <mark>lâmpadas
+            LED ou fluorescente</mark>, que iluminam bem o ambiente economizando mais energia em comparação às lâmpadas
+            incandescentes. Desligar aparelhos eletrônicos em stand by e abrir o frigorífico com menos
+            frequência também ajudam na economia de energia. Ao comprar eletrodomésticos, priorize aqueles que
+            possuem <mark>etiqueta energética de classe A++ ou A+++</mark>, pois estes permitem uma maior poupança de energia
+            a longo prazo.</p>
+        </div>
+
+        <div class="main__card main__card--left card-agua">
+          <p class="main__text">Use a água de forma consciente <mark>fechando a torneira</mark> enquanto escova os dentes, lava o
+            cabelo, faz a barba ou outra utilização semelhante. E, quando fechar as torneiras, feche-as bem e
+            verifique se não tem água pingando. <mark>Recolha e utilize</mark> a água da chuva para lavar o chão, lavar o
+            carro ou regar as plantas.</p>
+        </div>
+        <div class="main__card main__card--image main__card--right agua">
+          <img class="svg" src="old/img/agua.svg" alt="Gota d'água">
+        </div>
+
+        <div class="main__card main__card--image main__card--left carro">
+          <img class="svg" src="old/img/carro-ecologico.svg" alt="Carro ecológico, com duas folhas em cima">
+        </div>
+        <div class="main__card main__card--right card-carro">
+          <p class="main__text"><mark>Ande de bicicleta ou utilize os transportes públicos</mark>, pois, além de melhorar a saúde,
+            você ajuda a diminuir a emissão de gases poluentes. Algum colega de trabalho mora por perto?
+            <mark>Compartilhe a viagem de carro</mark> e divida os custos.</p>
+        </div>
+
+        <div class="main__card main__card--left card-bateria">
+          <p class="main__text">Utilize <mark>pilhas e baterias recarregáveis e produtos refil</mark>, pois além de econômicos,
+            geram menos resíduos, sendo assim mais amigáveis ao meio ambiente. Para lavar a roupa e a louça,
+            evite produtos químicos e priorize os biodegradáveis. Você também pode proteger os animais em vias de
+            extinção
+            evitando comprar produtos fabricados a partir de suas espécies.</p>
+        </div>
+        <div class="main__card main__card--image main__card--right bateria">
+          <img class="svg" src="old/img/tecnologia.svg" alt="Pilha com uma folha no centro">
+        </div>
+      </div>
+      <hr>
+      <div class="main__paragraph">
+        <div class="main__card">
+          <h2 class="main__title main__title--inside">Sobre</h2>
+          <p class="main__text">
+            Olá! Meu nome é <mark>Gabriel Carloto</mark> e eu tenho 18 anos.
+          </p>
+          <p class="main__text main__text--break">
+            Esse projeto foi desenvolvido, inicialmente, em 2020, durante o curso "Meu Primeiro Site", promovido
+            pela <mark>Junior Achievement</mark> e pela <mark>Microsoft</mark>. Em 2022, decidi refazer o projeto,
+            com um novo visual e utilizando outros conhecimentos que adquiri ao longo dos anos. Caso queira acessar
+            a primeira versão do site, <a href="old/index.htm">clique aqui</a>. Você também pode acessar o repositório
+            deste projeto no GitHub, <a href="https://github.com/GabrielCarloto/meu-primeiro-site">clicando aqui</a>.
+          </p>
+          <p class="main__text main__text--break">
+            <strong>Créditos:</strong> Imagens de <a href="https://www.pexels.com/pt-br/%22">Pexels</a> e 
+            <a href="https://www.flaticon.com/">Flaticon</a>. Tema gerado por <a href="https://theme.numl.design/">Numl.Design</a>.
+          </p>
+        </div>
+    </div>
+  </article>
+
+  <script src="script.js"></script>
+</body>
+</html>

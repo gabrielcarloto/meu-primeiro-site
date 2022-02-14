@@ -1,50 +1,25 @@
 :root {
-    --bg-color: #E8ECEE;
-    --bg1-color: #F3F5F6;
-    --title-color: #F9F9F9;
-    --txt-color: #00030F;
-    --link-color: #000C3D;
-}
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-
-    scroll-behavior: smooth;
-
-    background-color: var(--bg-color);
-}
-
-/* TEXTOS */
-
-a {
-    text-decoration: none;
-}
-
-#topic-1-link,
-#topic-2-link,
-#sobre-link {
-    visibility: hidden;
-
-    margin: 0px;
-    padding: 3%;
-}
-
-.topic {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: normal;
-    font-size: 26px;
-
-    text-align: left;
-
-    margin: 0 20px 0 11%;
-}
-
-.text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-
-    color: var(--txt-color);
+  --image-landing: url(https://images.pexels.com/photos/5808/food-healthy-vegetables-village.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  
+  /* 
+  https://theme.numl.design/
+  */
+  
+  --bg-color: rgba(255,255,255, 1);
+  --text-color: rgba(35,53,31, 1);
+  --text-soft-color: rgba(65,78,63, 1);
+  --text-strong-color: rgba(74,74,74, 1);
+  --subtle-color: rgba(246,251,245, 1);
+  --border-color: rgba(216,236,213, 1);
+  --shadow-color: rgba(162,201,154, 1);
+  --input-color: rgba(255,255,255, 1);
+  --outline-color: rgba(105,219,57, 1);
+  --mark-color: rgba(61,151,0, 0.15);
+  --special-color: rgba(61,151,0, 1);
+  --special-bg-color: rgba(63,155,0, 1);
+  --special-text-color: rgba(255,255,255, 1);
+  --special-shadow-color: rgba(68,102,59, 1);
+  --special-mark-color: rgba(255,255,255, 0.08);
+  --light-color: rgba(213,255,204, 1);
+  --dark-color: rgba(51,77,44, 1);
 }
