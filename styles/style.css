@@ -1,0 +1,62 @@
+body {
+  background-color: var(--subtle-color);
+  padding-bottom: 10vh;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--subtle-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--outline-color);
+  border-radius: 10px;
+}
+
+h2::selection,
+h3::selection, 
+p::selection,
+a::selection,
+strong::selection,
+mark::selection,
+li::selection {
+  background-color: var(--light-color);
+}
+
+strong {
+  color: var(--strong-color);
+  font-weight: bold;
+}
+
+a {
+  color: var(--special-color);
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+button a {
+  color: var(--special-text-color);
+}
+
+mark {
+  background: var(--mark-color);
+  border-radius: 15px 0;
+  padding: 1px 3px;
+}
+
+hr {
+  background-color: var(--shadow-color);
+  border-radius: 15px;
+  border: 0;
+  height: 4px;
+  margin: 50px auto;
+  width: 98%;
+}

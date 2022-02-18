@@ -1,0 +1,91 @@
+.outline {
+  background-color: var(--bg-color);
+  border-radius: 15px;
+  border: 2px solid var(--border-color);
+  padding: 1%;
+  position: fixed;
+  top: 57px;
+  transition: .2s;
+}
+
+.outline__title {
+  color: var(--text-color);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  left: 15px;
+  position: absolute;
+  text-shadow: 5px 0px 0px #fff;
+  top: -15px;
+}
+
+.outline__list-container {
+  margin-top: 10px;
+}
+
+.outline__list {
+  color: var(--text-color);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  list-style: none;
+  margin: 0px 0 20px 0;
+  padding: 0;
+  position: relative;
+  transition: .5s;
+}
+
+.outline__list:hover {
+  color: var(--special-color);
+}
+
+.outline__list:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.outline__list::before {
+  animation: outline-animation-out 200ms ease-in-out;
+  background-color: var(--outline-color);
+  border-radius: 5px;
+  content: "";
+  height: 3px;
+  left: -1px;
+  position: absolute;
+  top: 20px;
+  visibility: var(--visibility);
+  width: 97%;
+}
+
+.outline__list:hover::before {
+  animation: outline-animation 200ms ease-in-out;
+  visibility: visible;
+}
+
+@keyframes outline-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 97%;
+  }
+}
+
+@keyframes outline-animation-out {
+  0% {
+    width: 97%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .outline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .outline {
+    display: none;
+  }
+}

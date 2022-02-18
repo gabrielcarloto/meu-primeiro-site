@@ -1,0 +1,88 @@
+.main__card--image {
+  background-color: var(--special-bg-color);
+  border-color: var(--special-shadow-color);
+  display: flex;
+  padding: 0 5%;
+  width: 90%;
+}
+
+.main__card--left {
+  border-radius: 15px 0 0 15px;
+}
+
+.main__card--right {
+  border-radius: 0 15px 15px 0;
+}
+
+.svg {
+  filter: grayscale(100%) invert();
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .main__cards-container {
+    display: grid;
+    grid-template-areas:
+      "energia card-energia card-energia"
+      "card-agua card-agua agua"
+      "carro card-carro card-carro"
+      "card-bateria card-bateria bateria"
+    ;
+    grid-template-columns: 17% 66% 17%;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .main__card--image.main__card--left {
+    z-index: 1;
+  }
+
+  .energia {
+    grid-area: energia;
+  }
+
+  .card-energia {
+    grid-area: card-energia;
+    width: 89.7%;
+  }
+
+  .agua {
+    grid-area: agua;
+  }
+
+  .card-agua {
+    grid-area: card-agua;
+    width: 89.7%;
+  }
+
+  .carro {
+    grid-area: carro;
+  }
+
+  .card-carro {
+    grid-area: card-carro;
+    width: 89.7%;
+  }
+
+  .bateria {
+    grid-area: bateria;
+  }
+
+  .card-bateria {
+    grid-area: card-bateria;
+    width: 89.7%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main__card--image {
+    display: none;
+  }
+
+  .main__card--left {
+    border-radius: 15px;
+  }
+  
+  .main__card--right {
+    border-radius: 15px;
+  }
+}
