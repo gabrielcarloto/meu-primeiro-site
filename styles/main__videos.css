@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 1000px) and (orientation: portrait) {
   .main__card--video {
-    width: 87%;
+    width: 93%;
   }
 
   .main__videos--title {

@@ -27,7 +27,6 @@ document.addEventListener('scroll', (e) => {
   } else {
     outline.style.left = '-300px'
     outlineContainer.style.transform = 'translateX(-50px)'
-
     main.style.marginLeft = '0'
   }
 })

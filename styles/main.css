@@ -85,6 +85,10 @@
     display: none;
   }
 
+  .mobile {
+    display: block;
+  }
+
   .main__title.mobile {
     font-size: clamp(25px, 7vw, 40px);
   }
